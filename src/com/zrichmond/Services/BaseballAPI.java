@@ -14,7 +14,7 @@ public class BaseballAPI {
     public void GetData(){
         try {
             URL url = new URL ("https://www.mysportsfeeds.com/api/feed/pull/mlb/2016-playoff/game_boxscore.json?gameid=20161007-LAD-WAS&teamstats=none&playerstats=none");
-            byte[] encodedBytes = Base64.getEncoder().encode("Zachary.T.Richmond:Ztr092190".getBytes());
+            byte[] encodedBytes = Base64.getEncoder().encode("".getBytes());
             System.out.println("encodedBytes " + new String(encodedBytes));
 //            byte[] decodedBytes = Base64.getDecoder().decode(encodedBytes);
 //            System.out.println("decodedBytes " + new String(decodedBytes));
